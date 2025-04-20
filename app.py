@@ -14,7 +14,7 @@ CORS(app)
 logging.basicConfig(level=logging.DEBUG)
 
 # Configure Gemini API key (replace with your actual key)
-genai.configure(api_key="AIzaSyCQ--l4M014DVUN4g8nG1DN7BbtnaI2t5U")
+genai.configure(api_key="enter your api key")
 
 # Initialize the Gemini 1.5 model
 model = genai.GenerativeModel('gemini-1.5-pro-latest')
